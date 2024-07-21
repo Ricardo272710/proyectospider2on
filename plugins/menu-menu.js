@@ -117,6 +117,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃🇬🇬 ➺ .guerra
 ┃📐 ➺ .apos
 ┃📝 ➺ .Ficha / jugador
+┃👑 ➺ .hexagonal
 ┃👑 ➺ .Vs4
 ┃👑 ➺ .Vs6
 ┃👑 ➺ .Vs8
