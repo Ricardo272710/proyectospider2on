@@ -6,7 +6,7 @@ const handler = async (m, {conn, usedPrefix, command, text}) => {
   if (!who) return m.reply(`*✳️ menciona a quien deseas felicitar*\n\n*📌 ejemplo :*\n${usedPrefix + command} @tag`);
 
 
-  const abrazo = await conn.reply(m.chat, `Ey Jaja @${m.sender.split('@')[0]} Te Esta Deseando Feliz Cumpleaños @${who.split('@')[0]} `, m, {mentions: [who, m.sender]});
+  const abrazo = await conn.reply(m.chat, `Ey Jaja @${m.sender.split('@')[0]} Te Esta Deseando Feliz Cumpleaños, feliz cumpleaños camepon @${who.split('@')[0]} `, m, {mentions: [who, m.sender]});
 
   conn.sendMessage(m.chat, {react: {text: '🎂', key: abrazo.key}});
 };
